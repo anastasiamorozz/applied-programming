@@ -1,9 +1,6 @@
 package main.java.com;
 
-import main.java.com.commands.EditCoffeeDataCommand;
-import main.java.com.commands.LoadTruckCommand;
-import main.java.com.commands.ReorderCoffeeCommand;
-import main.java.com.commands.ViewCoffeeCommand;
+import main.java.com.commands.*;
 import main.java.com.menu.Menu;
 
 import java.util.Scanner;
@@ -15,6 +12,7 @@ public class Main {
         menu.setCommand(2, new ViewCoffeeCommand());
         menu.setCommand(3, new EditCoffeeDataCommand());
         menu.setCommand(4, new ReorderCoffeeCommand());
+        menu.setCommand(5, new AddSupplierCommand());
 
         Scanner scanner = new Scanner(System.in);
         int option = -1;

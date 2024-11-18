@@ -18,6 +18,7 @@ public class Menu {
         System.out.println("2. Переглянути каву в фургоні");
         System.out.println("3. Редагувати дані про каву в фургоні");
         System.out.println("4. Дозамовити каву у постачальника");
+        System.out.println("5. Додати нового постачальника");
         System.out.println("0. Вихід");
     }
 
